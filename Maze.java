@@ -341,8 +341,8 @@ g.setColor(color);
  
  
  public void stack() {
- Stack<position> stack = new Stack<position>();
  startTime = System.nanoTime();
+ Stack<position> stack = new Stack<position>();
  stack.push(new position(start_i, start_j));
  position crt, next; 
  while (!stack.empty()) {
@@ -386,8 +386,8 @@ g.setColor(color);
  
  
  public void queue() {
- Queue<position> list = new LinkedList<position>();
  startTime = System.nanoTime();
+ Queue<position> list = new LinkedList<position>();
  list.add(new position(start_i, start_j));
  position crt, next;
  while (!list.isEmpty()) {
